@@ -3,8 +3,7 @@ import "./globals.css";
 import pageLayout from "./page.module.css";
 import Header from "@/components/global/navbar/Header";
 import LeftLayout from "@/components/global/layouts/LeftLayout";
-import { usePathname } from "next/navigation";
-import AppLayout from "@/components/global/layouts/AppLayout";
+
 
 const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
